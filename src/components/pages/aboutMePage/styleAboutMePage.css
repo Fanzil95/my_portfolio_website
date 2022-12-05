@@ -1,0 +1,103 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+.containerAboutMe {
+  position: relative;
+  overflow: hidden;
+  width: 1000px;
+  height:400px;
+}
+
+.sidebar {
+  height: 100%;
+  width: 40%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: transform 0.5s ease-in-out;
+}
+
+.sidebar > div {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  border: 5px solid red;
+}
+
+.sidebar h1 {
+  font-size: 15px;
+  margin-bottom: 10px;
+  margin-top: -30px;
+}
+
+.main-slide {
+  /* border: 10px solid yellow; */
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 40%;
+  width: 60%;
+  transition: transform 0.5s ease-in-out;
+}
+
+
+
+.main-slide > div {
+  border: 5px solid blue;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100%;
+  width: 100%;
+}
+
+button {
+  background-color: grey;
+  border: none;
+  color: #aaa;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 15px;
+}
+
+button:hover {
+  color: #222;
+}
+
+button:focus {
+  outline: none;
+}
+
+.containerAboutMe .controls button {
+  position: absolute;
+  left: 40%;
+  top: 50%;
+  z-index: 100;
+}
+
+.containerAboutMe .controls .down-button {
+  transform: translateX(-100%);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.containerAboutMe .controls .up-button {
+  transform: translateY(-100%);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+
+
+

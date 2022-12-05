@@ -1,0 +1,42 @@
+
+
+* {
+  box-sizing: border-box;
+}
+.containerProjectPage{
+    width: 100%;
+    display: flex;
+    padding: 0 20px;
+    background-color: #e7e7e5 ;
+
+    }
+
+.slide {
+background-color: #e7e7e5 ;
+border: 2px  solid #ef6817;
+width: 50px;
+height: 430px;
+border-radius:10px;
+margin:5px;
+cursor: pointer;
+color: #383838;
+flex: 1;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+transition: all 500ms ease-in-out;
+
+}
+.slide h1 {
+font-size:36px;
+padding: 50px;
+margin: auto;
+opacity: 0;
+}
+.slide.active{
+flex:10;
+}
+.slide.active h1{
+opacity: 1;
+transition: opacity 0.3s ease-in;
+}
