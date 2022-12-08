@@ -13,9 +13,18 @@ const ContentProjectPage = ({slides, onChange}) => {
                 key={slide.id}
                 onClick={()=>selectSlide(slide.id)}
                 >
-                    <h1>{slide.complited?slide.title : ''}</h1> 
+                    {slide.complited
+                    ?<img className='gif' src={slide.content} alt=""/> 
+                    : <h6>play</h6>
+                    }
+                    {slide.complited
+                    ?<div className='titleProject'>
+                        {slide.title}
+                    </div>
+                    :''}
                 </div>
             )}
+           
         </div>
             )
 }

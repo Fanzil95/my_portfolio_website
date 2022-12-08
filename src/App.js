@@ -6,8 +6,9 @@ import ProjectPage from './components/pages/ProjectPage';
 import'./index.css'
 import AboutMePage from './components/pages/AboutMePage';
 import ContactPage from './components/pages/ContactPage';
-
-
+import { text } from './components/textContent/TextContent';
+import {slidesContent} from './components/pages/projectPage/slidesContent';
+import {TitleText} from './components/pages/projectPage/TitleText'
 function App() {
 
   const [navBar,setNavBar] = useState([
@@ -18,19 +19,19 @@ function App() {
   ])
   
   const [slides, setSlides] = useState([
-    {id:1, complited: true, title: 'Project1'},
-    {id:2, complited: false, title: 'Project2'},
-    {id:3, complited: false, title: 'Project3'},
-    {id:4, complited: false, title: 'Project4'},
-    {id:5, complited: false, title: 'Project5'}
+    {id:1, complited: true, title: TitleText.text1,content: slidesContent.slide1},
+    {id:2, complited: false, title: TitleText.text2,content:slidesContent.slide2},
+    {id:3, complited: false, title: TitleText.text3,content:slidesContent.slide3},
+    {id:4, complited: false, title: TitleText.text4,content:slidesContent.slide4},
+    {id:5, complited: false, title: TitleText.text5,content:slidesContent.slide4}
 ])
 
-const [slidesV, setSlidesV] = useState([
-  {id:1, complited: false, text: 'one', element: 'first'},
-  {id:2, complited: false, text: 'two', element: 'second'},
-  {id:3, complited: false, text: 'three', element: 'third'},
-  {id:4, complited: false, text: 'four', element: 'fourth'}
-])
+const slidesV = [
+  {id:1, complited: false, text: text.text1, element: 'first'},
+  {id:2, complited: false, text: text.text2, element: 'second'},
+  {id:3, complited: false, text: text.text3, element: 'third'},
+  {id:4, complited: false, text: text.text4, element: 'fourth'}
+]
 
 const [stateBtn, setStateBtn] = useState(0)
 
@@ -54,7 +55,7 @@ function changeStateNavBar (id) {
       navBar.map((link)=>{
         link.complited=false
         if(link.id === id){
-          link.complited = !link.cofunctionmplited
+          link.complited = !link.complited
         }
         return link
       })
