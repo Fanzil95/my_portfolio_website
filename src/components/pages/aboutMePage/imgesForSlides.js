@@ -1,4 +1,6 @@
 import photo from "../imgs/photo.jpg"
+import hobby from "../imgs/hobby.jpg"
 export const imgesForSlides = {
-    image: photo
+    image1: photo,
+    image2: hobby
 }
