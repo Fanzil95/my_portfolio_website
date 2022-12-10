@@ -7,7 +7,9 @@ const TextContainer = ({stateBtn, slidesV}) => {
         style={{transform:`translateY(${stateBtn * 400}px)`, top: `-${(slidesV.length -1) * 100}%`}}
         >
                 {slidesV.map(slides=>
-             <div key={slides.id}>
+             <div key={slides.id}
+             className='textAboutMe'
+             >
              {slides.text}
              </div>
             )}

@@ -33,13 +33,10 @@ font-size:12px;
 margin-top: 50%;
 display: flex;
 justify-content: center; 
+color: #e7b89d;
 }
 .slide.active{
 flex:10;
-}
-.slide.active h1{
-opacity: 1;
-transition: opacity 0.3s ease-in;
 }
 
 .gif{
@@ -52,12 +49,15 @@ transition: opacity 0.3s ease-in;
     border-radius: 7px;
     padding: 7px;
     margin-top: 8px;
-    background-color: #fac09d;
-    font-size: 9pt;
+    background-color: #f7c8ac;
+    font-size: 8pt;
     
   }
   .titleProject b{
   
     font-weight: 700;
     
+  }
+  .titleProject b a{
+    color: #383838;
   }

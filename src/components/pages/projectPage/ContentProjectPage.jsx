@@ -14,8 +14,8 @@ const ContentProjectPage = ({slides, onChange}) => {
                 onClick={()=>selectSlide(slide.id)}
                 >
                     {slide.complited
-                    ?<img className='gif' src={slide.content} alt=""/> 
-                    : <h6>play</h6>
+                    ?<img className='gif' src={slide.content} alt="приложение"/> 
+                    : <h6>project</h6>
                     }
                     {slide.complited
                     ?<div className='titleProject'>
