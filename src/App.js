@@ -9,6 +9,7 @@ import ContactPage from './components/pages/ContactPage';
 import { text } from './components/textContent/TextContent';
 import {slidesContent} from './components/pages/projectPage/slidesContent';
 import {TitleText} from './components/pages/projectPage/TitleText'
+import { imgesForSlides } from './components/pages/aboutMePage/imgesForSlides';
 function App() {
 
   const [navBar,setNavBar] = useState([
@@ -27,10 +28,10 @@ function App() {
 ])
 
 const slidesV = [
-  {id:1, complited: false, text: text.text1, element: 'first'},
-  {id:2, complited: false, text: text.text2, element: 'second'},
-  {id:3, complited: false, text: text.text3, element: 'third'},
-  {id:4, complited: false, text: text.text4, element: 'fourth'}
+  {id:1, complited: false, text: text.text4, element: imgesForSlides.image},
+  {id:2, complited: false, text: text.text3, element: 'second'},
+  {id:3, complited: false, text: text.text2, element: 'third'},
+  {id:4, complited: false, text: text.text1, element: ''}
 ]
 
 const [stateBtn, setStateBtn] = useState(0)

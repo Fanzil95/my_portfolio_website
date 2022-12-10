@@ -6,7 +6,7 @@ const ImgContainer = ({stateBtn, slidesV}) => {
         <div className={'main-slide'} style={{transform:`translateY(-${stateBtn * 400}px)` }}>
             {slidesV.map(slides=>
              <div key={slides.id}>
-             {slides.element}
+             <img src={slides.element} alt="" />
              </div>
                 )}
                
