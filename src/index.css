@@ -128,7 +128,7 @@ body {
   background-color: #383838;
   padding: 0;
   margin:auto;
-  width: 700px;
+  max-width: 700px;
   border-radius: 7px;
 }
 

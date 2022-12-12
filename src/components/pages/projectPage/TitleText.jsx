@@ -34,14 +34,14 @@ export const TitleText = {
     <h4>HTML, CSS, JavaScript, React js </h4>
     <b>Библиотека:</b>
     <h4>bootstrap</h4>
-    <b>Исходные файлы: <a href="" target="_blank" rel="noreferrer">github.com</a> </b>
+    <b>Исходные файлы:</b> скоро будут.
     </h3>
     ,
      text5: <h3>
      <b>Portfolio Website.</b>
-     <h4>Веб-страница для резюме и портфолио. </h4>
+     <h4>Веб-страница для презентации резюме и портфолио. </h4>
      <b>Язык:</b> 
      <h4>HTML, CSS, JavaScript, React js </h4>
-     <b>Исходные файлы: <a href="" target="_blank" rel="noreferrer">github.com</a> </b>
+     <b>Исходные файлы: <a href="https://github.com/Fanzil95/my_portfolio_website" target="_blank" rel="noreferrer">github.com</a> </b>
      </h3>
 }

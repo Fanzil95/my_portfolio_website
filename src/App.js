@@ -24,7 +24,7 @@ function App() {
     {id:2, complited: false, title: TitleText.text2,content:slidesContent.slide2},
     {id:3, complited: false, title: TitleText.text3,content:slidesContent.slide3},
     {id:4, complited: false, title: TitleText.text4,content:slidesContent.slide4},
-    {id:5, complited: false, title: TitleText.text5,content:slidesContent.slide4}
+    {id:5, complited: false, title: TitleText.text5,content:slidesContent.slide5}
 ])
 
 const slidesV = [
