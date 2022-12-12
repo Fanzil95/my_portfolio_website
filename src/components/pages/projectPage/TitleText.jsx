@@ -5,14 +5,15 @@ export const TitleText = {
     <h4>Пример использования асинхронного кода.
     Использование анимации лоудера при ожидании загрузки задач</h4>
     <b>Язык.</b> 
-    <h4>html, css, JavaScript react js.</h4>
+    <h4>HTML, CSS, JavaScript React js.</h4>
     <b>Исходные файлы: <a href="https://github.com/Fanzil95/todo-App-on-React-Js" target="_blank" rel="noreferrer">github.com</a> </b>
     </h3>,
 
-    text2: <h3><b>Игра.</b> 
+    text2: <h3><b>Aim Game</b> 
+    <h4>Мини-игра.</h4>
     <br />
     <b>Язык:</b> 
-    <h4>html, css, JavaScript.</h4>
+    <h4>HTML, CSS, JavaScript.</h4>
     <b>Исходные файлы: <a href="https://github.com/Fanzil95/todo-App-on-React-Js" target="_blank" rel="noreferrer">github.com</a> </b>
     </h3>,
 
@@ -23,7 +24,7 @@ export const TitleText = {
     Пример использования математических и тригонометрических формул.
     Преобразование чисел в градусы и минуты.</h4>
     <b>Язык:</b> 
-    <h4>html, native js</h4>
+    <h4>HTML, CSS, JavaScript</h4>
     <b>Исходные файлы: <a href="https://github.com/Fanzil95/cone_calculator" target="_blank" rel="noreferrer">github.com</a> </b>
     
     </h3>,
@@ -32,17 +33,17 @@ export const TitleText = {
     <b>Список персон.</b>
     <h4>Пример использования пагинации, сортировки списка (по рейтингу, алфавиту), маршрутизации.</h4>
     <b>Язык:</b> 
-    <h4>htlm, css, JavaScript, React js </h4>
+    <h4>HTML, CSS, JavaScript, React js </h4>
     <b>Библиотека:</b>
     <h4>bootstrap</h4>
     <b>Исходник:</b> 
     <h4>гитхаб</h4></h3>,
 
      text5: <h3>
-     <b>Список персон.</b>
-     <h4>Пример использования пагинации, сортировки списка (по рейтингу, алфавиту), маршрутизации.</h4>
+     <b>Portfolio Website.</b>
+     <h4>Веб-страница для резюме и портфолио. </h4>
      <b>Язык:</b> 
-     <h4>htlm, css, JavaScript, react js </h4>
+     <h4>HTML, CSS, JavaScript, React js </h4>
      <b>Библиотека: bootstrap</b>
      <b>Исходник:</b> 
      <h4>гитхаб</h4></h3>

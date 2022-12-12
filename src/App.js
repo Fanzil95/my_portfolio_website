@@ -29,8 +29,8 @@ function App() {
 
 const slidesV = [
   {id:1, complited: false, text: text.text4, element: imgesForSlides.image1},
-  {id:2, complited: false, text: text.text3, element: 'second'},
-  {id:3, complited: false, text: text.text2, element: imgesForSlides.image2},
+  {id:2, complited: false, text: text.text3, element: imgesForSlides.image2},
+  {id:3, complited: false, text: text.text2, element: imgesForSlides.image3},
   {id:4, complited: false, text: text.text1, element: ''}
 ]
 

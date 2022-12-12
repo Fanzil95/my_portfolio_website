@@ -78,7 +78,7 @@ button:focus {
 
 .containerAboutMe .controls button {
   position: absolute;
-  left: 40%;
+  left: 300px;
   top: 50%;
   z-index: 100;
 }
