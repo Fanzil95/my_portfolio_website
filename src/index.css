@@ -135,12 +135,12 @@ body {
 .contactPage{
   display: flex;
   /* background-color: #383838; */
-  padding: 50px;
+  padding: 0;
   margin:auto;
   max-width: 500px;
   color: #c4c4c2;
   border-radius: 7px;
-  background: linear-gradient(#111111,#525252);
+  background: linear-gradient(#111111,#777777);
 
 }
 

@@ -13,10 +13,10 @@ import { imgesForSlides } from './components/pages/aboutMePage/imgesForSlides';
 function App() {
 
   const [navBar,setNavBar] = useState([
-    {id:1, complited:true, title:'Home'},
-    {id:2, complited:false,title:'Projects'},
-    {id:3, complited:false,title:'About Me'},
-    {id:4, complited:false, title:'Contact'}
+    {id:1, complited:true, title:'Главная'},
+    {id:2, complited:false,title:'Проекты'},
+    {id:3, complited:false,title:'Обо мне'},
+    {id:4, complited:false, title:'Контакты'}
   ])
   
   const [slides, setSlides] = useState([
@@ -31,7 +31,7 @@ const slidesV = [
   {id:1, complited: false, text: text.text4, element: imgesForSlides.image1},
   {id:2, complited: false, text: text.text3, element: imgesForSlides.image2},
   {id:3, complited: false, text: text.text2, element: imgesForSlides.image3},
-  {id:4, complited: false, text: text.text1, element: ''}
+  {id:4, complited: false, text: text.text1, element: imgesForSlides.image4}
 ]
 
 const [stateBtn, setStateBtn] = useState(0)

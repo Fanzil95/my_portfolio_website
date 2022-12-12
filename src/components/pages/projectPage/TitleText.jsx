@@ -11,22 +11,20 @@ export const TitleText = {
 
     text2: <h3><b>Aim Game</b> 
     <h4>Мини-игра.</h4>
-    <br />
     <b>Язык:</b> 
     <h4>HTML, CSS, JavaScript.</h4>
-    <b>Исходные файлы: <a href="https://github.com/Fanzil95/todo-App-on-React-Js" target="_blank" rel="noreferrer">github.com</a> </b>
+    <b>Исходные файлы: <a href="https://github.com/Fanzil95/aim-game" target="_blank" rel="noreferrer">github.com</a> </b>
     </h3>,
 
     text3: <h3>
     <b>Калькулятор</b> 
     <h4>Калькулятор прямого вычисления размеров  конических поверхностей.
-        <br />
+    <br />
     Пример использования математических и тригонометрических формул.
     Преобразование чисел в градусы и минуты.</h4>
     <b>Язык:</b> 
     <h4>HTML, CSS, JavaScript</h4>
     <b>Исходные файлы: <a href="https://github.com/Fanzil95/cone_calculator" target="_blank" rel="noreferrer">github.com</a> </b>
-    
     </h3>,
 
     text4: <h3>
@@ -36,16 +34,14 @@ export const TitleText = {
     <h4>HTML, CSS, JavaScript, React js </h4>
     <b>Библиотека:</b>
     <h4>bootstrap</h4>
-    <b>Исходник:</b> 
-    <h4>гитхаб</h4></h3>,
-
+    <b>Исходные файлы: <a href="" target="_blank" rel="noreferrer">github.com</a> </b>
+    </h3>
+    ,
      text5: <h3>
      <b>Portfolio Website.</b>
      <h4>Веб-страница для резюме и портфолио. </h4>
      <b>Язык:</b> 
      <h4>HTML, CSS, JavaScript, React js </h4>
-     <b>Библиотека: bootstrap</b>
-     <b>Исходник:</b> 
-     <h4>гитхаб</h4></h3>
-    
+     <b>Исходные файлы: <a href="" target="_blank" rel="noreferrer">github.com</a> </b>
+     </h3>
 }
