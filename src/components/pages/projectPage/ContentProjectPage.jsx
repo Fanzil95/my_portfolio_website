@@ -1,11 +1,13 @@
 import React from 'react';
 import "./styleProjectPage.css"
+import TextTitle from './TextTitle';
 
 const ContentProjectPage = ({slides, onChange}) => {
     function selectSlide (id){
     onChange(id)
     }
     return (
+        <div className='mainContainerPrPg'>
         <div className='containerProjectPage'>
             {slides.map(slide=>
                 <div 
@@ -17,14 +19,12 @@ const ContentProjectPage = ({slides, onChange}) => {
                     ?<img className='gif' src={slide.content} alt="приложение"/> 
                     : <h6>project</h6>
                     }
-                    {slide.complited
-                    ?<div className='titleProject'>
-                        {slide.title}
-                    </div>
-                    :''}
                 </div>
+            
             )}
            
+        </div>
+        <TextTitle slides={slides}/>
         </div>
             )
 }

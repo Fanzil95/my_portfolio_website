@@ -96,6 +96,12 @@ body {
     height: 100px;
   }
 }
+  @media (max-height:588px) {
+    .container{
+    position: static;
+    }
+  }
+
 .links{
   display:flex;
   align-items: center;

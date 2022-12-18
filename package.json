@@ -1,8 +1,8 @@
 {
   "name": "my-portfolio-website",
   "version": "0.1.0",
-  "homepage": "https://fanzil95.github.io/my_portfolio_website/",
   "private": true,
+  "homepage": "https://fanzil95.github.io/my_portfolio_website/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -20,6 +20,7 @@
     "eject": "react-scripts eject",
     "predeploy": "react-scripts build",
     "deploy": "gh-pages -d build"
+    
   },
   "eslintConfig": {
     "extends": [
