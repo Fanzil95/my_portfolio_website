@@ -34,7 +34,7 @@ export const TitleText = {
     <h4>HTML, CSS, JavaScript, React js </h4>
     <b>Библиотека:</b>
     <h4>bootstrap</h4>
-    <b>Исходные файлы:</b> скоро будут.
+    <b>Исходные файлы: <a href="https://github.com/Fanzil95/character-list" target="_blank" rel="noreferrer">github.com</a> </b>
     </h3>
     ,
      text5: <h3>
