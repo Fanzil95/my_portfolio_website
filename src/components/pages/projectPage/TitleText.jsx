@@ -5,7 +5,7 @@ export const TitleText = {
     <h4>Пример использования асинхронного кода.
     Использование анимации лоудера при ожидании загрузки задач</h4>
     <b>Язык.</b> 
-    <h4>HTML, CSS, JavaScript React js.</h4>
+    <h4>HTML, CSS, JavaScript, ReactJS.</h4>
     <b>Исходные файлы: <a href="https://github.com/Fanzil95/todo-App-on-React-Js" target="_blank" rel="noreferrer">github.com</a> </b>
     </h3>,
 
@@ -31,7 +31,7 @@ export const TitleText = {
     <b>Список персон.</b>
     <h4>Пример использования пагинации, сортировки списка (по рейтингу, алфавиту), маршрутизации.</h4>
     <b>Язык:</b> 
-    <h4>HTML, CSS, JavaScript, React js </h4>
+    <h4>HTML, CSS, JavaScript, ReactJS </h4>
     <b>Библиотека:</b>
     <h4>bootstrap</h4>
     <b>Исходные файлы: <a href="https://github.com/Fanzil95/character-list" target="_blank" rel="noreferrer">github.com</a> </b>
@@ -41,7 +41,7 @@ export const TitleText = {
      <b>Portfolio Website.</b>
      <h4>Веб-страница для презентации резюме и портфолио. </h4>
      <b>Язык:</b> 
-     <h4>HTML, CSS, JavaScript, React js </h4>
+     <h4>HTML, CSS, JavaScript, ReactJS </h4>
      <b>Исходные файлы: <a href="https://github.com/Fanzil95/my_portfolio_website" target="_blank" rel="noreferrer">github.com</a> </b>
      </h3>
 }

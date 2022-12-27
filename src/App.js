@@ -5,7 +5,7 @@ import Footer from './components/Footer';
 import ProjectPage from './components/pages/ProjectPage';
 import'./index.css'
 import AboutMePage from './components/pages/AboutMePage';
-import ContactPage from './components/pages/ContactPage';
+import ContactPage from './components/pages/contactPage/ContactPage';
 import { text } from './components/textContent/TextContent';
 import {slidesContent} from './components/pages/projectPage/slidesContent';
 import {TitleText} from './components/pages/projectPage/TitleText'
@@ -35,6 +35,8 @@ const slidesV = [
 ]
 
 const [stateBtn, setStateBtn] = useState(0)
+
+const [feedback, setFeedback] = useState(true)
 
 function up(){
   setStateBtn(stateBtn+1)
@@ -71,9 +73,12 @@ function changeStateNavBar (id) {
       }
       return slide
     }))
-  } 
+  }
+  
+  function handleFeedback(booleanValue){
+    setFeedback(booleanValue)
+  }
 
-  console.log(stateBtn)
 
   return (
   <div className='container'>
@@ -86,7 +91,10 @@ function changeStateNavBar (id) {
     btnUp={up}
     btnDown = {down}
     /> :''} 
-    {navBar[3].complited?<ContactPage/> :''} 
+    {navBar[3].complited?<ContactPage
+    handleFeedback={handleFeedback}
+    stateFeedback={feedback}
+    /> :''} 
 
     <Footer/>
   </div>

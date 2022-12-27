@@ -6,7 +6,7 @@ const TextTitle = ({slides}) => {
         <div>
             {slides.map(slide=>
                 slide.complited
-                    ?<div className='titleProject'>
+                    ?<div key={slide.id} className='titleProject'>
                         {slide.title}
                     </div>
                     :'')}

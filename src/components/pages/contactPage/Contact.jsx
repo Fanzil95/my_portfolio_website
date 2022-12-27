@@ -1,18 +1,21 @@
 import React from 'react';
 
-const style ={
-    font : {
-        fontWeight: 700,
-    },
-    color: {color: '#c4c4c2'}
-}
-
-const ContactPage = () => {
-    return ( 
-        <div className='contactPage'>
+const Contact = ({feedback}) => {
+    const style ={
+        font : {
+            fontWeight: 700,
+            },
+        color: {color: '#c4c4c2'}
+    }
+    const feedbackStyle = {
+        fontWeight:700,
+        color: '#c4c4c2',
+        textDecoration: 'underline',
+        cursor: 'pointer'
+    }
+    return (
             <div className='txt'>
             <h3 className='titlePost'>Связь со мной</h3>
-            <br />
             <br />
             <h5> 
             <b style={style.font}>Мобильная связь/WhatsApp:</b> +79681913434
@@ -31,13 +34,21 @@ const ContactPage = () => {
             <b style={style.font}>@Mail</b> 
             <br />
             amirov_fanzil@mail.ru
-                                
-
+            <br />
+            <br />
+            <b 
+            style={feedbackStyle}
+            onClick={()=>{feedback(false)}}
+            >Форма обратной связи </b> 
+            <h4 style={{textDecoration: 'none', color: 'red',}}>этот сервис сейчас разрабатывается</h4>
             </h5>
+            <br />
+            
+            
             </div>
             
-        </div>
+        
     );
 }
  
-export default ContactPage;
+export default Contact;
