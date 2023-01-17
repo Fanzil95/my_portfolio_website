@@ -26,9 +26,12 @@ const Contact = ({feedback}) => {
             <a style={style.color} href="https://t.me/fanzil95" target="_blank" rel="noreferrer">t.me/fanzil95</a>
             <br />
             <br />
-            <b style={style.font}>LinkedIn</b>
-            <br />
+            <b style={style.font}>LinkedIn</b><h5>(запрещено в РФ)</h5>
             <a style={style.color} href="http://www.linkedin.com/in/fanzil95" target="_blank" rel="noreferrer">linkedin.com/in/fanzil95</a>
+            <br />
+            <br />
+            <b style={style.font}>Instagram</b><h5>(запрещено в РФ)</h5>
+            <a style={style.color} href="https://instagram.com/amirov_f_f?igshid=ZDdkNTZiNTM=" target="_blank" rel="noreferrer">instagram.com/amirov_f_f</a>
             <br />
             <br />
             <b style={style.font}>@Mail</b> 

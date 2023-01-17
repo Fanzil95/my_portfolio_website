@@ -141,7 +141,7 @@ body {
 .contactPage{
   display: flex;
   /* background-color: #383838; */
-  padding: 0;
+  padding: 0 ;
   margin:auto;
   max-width: 500px;
   color: #c4c4c2;

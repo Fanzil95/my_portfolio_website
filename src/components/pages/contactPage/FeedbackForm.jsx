@@ -1,31 +1,54 @@
 import React from 'react';
 import './feedback.css'
 
-const FeedbackForm = ({feedback}) => {
+const FeedbackForm = ({feedback, stateForm, onChange}) => {
+  console.log(stateForm)
   function handleBack(e){
     e.preventDefault()
     feedback(true)
   }
     return (
         <div  className='contact'>
-            <form action="/">
+            <form 
+            onSubmit={(e)=>{e.preventDefault()}}
+            action="/">
           <div className="row">
             <div className="form-group">
               <label htmlFor="name">Ваше имя:</label>
-              <input type="text" id="name" placeholder="Введите ваше имя..."/>
+              <input 
+              type="text" 
+              id="name" 
+              placeholder="Введите ваше имя..."
+              value={stateForm.name}
+              onChange={event=>onChange({...stateForm, name: event.target.value})}
+              />
                 
             </div>
 
             <div className="form-group">
               <label htmlFor="email">Ваш email:</label>
-              <input type="email" id="email" placeholder="Введите email..."/>
+              <input 
+              type="email" 
+              id="email" 
+              placeholder="Введите email..."
+              value={stateForm.email}
+              onChange={event=>onChange({...stateForm, email: event.target.value})}
+              />
             </div>
           </div>
 
           <div className="form-group">
             <label htmlFor="text">Вашe сообщение:</label>
 
-            <textarea id="text" rows="2" cols="15" placeholder='Форма находится на стадии разработки.'></textarea>
+            <textarea id="text" 
+            rows="2" 
+            cols="15" 
+            placeholder='Форма находится на стадии разработки.'
+            value={stateForm.message}
+            onChange={event=>onChange({...stateForm, message: event.target.value})}
+            >
+
+            </textarea>
           </div>
 
           <input 
@@ -33,7 +56,7 @@ const FeedbackForm = ({feedback}) => {
           className="btn" 
           type="submit" 
           value="Связаться!"
-          onClick={(e)=>{e.preventDefault()}}/>
+          />
           <input 
           className="btn" 
           type="submit" 

@@ -34,6 +34,7 @@ const slidesV = [
   {id:4, complited: false, text: text.text1, element: imgesForSlides.image4}
 ]
 
+const [stateForm,setStateForm] =useState({name: '', email:'', message: ''})
 const [stateBtn, setStateBtn] = useState(0)
 
 const [feedback, setFeedback] = useState(true)
@@ -79,6 +80,10 @@ function changeStateNavBar (id) {
     setFeedback(booleanValue)
   }
 
+  function changeStateForm (value){
+    setStateForm(value)
+  }
+
 
   return (
   <div className='container'>
@@ -94,6 +99,8 @@ function changeStateNavBar (id) {
     {navBar[3].complited?<ContactPage
     handleFeedback={handleFeedback}
     stateFeedback={feedback}
+    stateForm={stateForm}
+    onChange={changeStateForm}
     /> :''} 
 
     <Footer/>
