@@ -1,12 +1,14 @@
 import React from 'react';
 
 export const TitleText = {
-    text1: <h3><b>Список задач.</b>
-    <h4>Пример использования асинхронного кода.
-    Использование анимации лоудера при ожидании загрузки задач</h4>
-    <b>Язык.</b> 
-    <h4>HTML, CSS, JavaScript, ReactJS.</h4>
-    <b>Исходные файлы: <a href="https://github.com/Fanzil95/todo-App-on-React-Js" target="_blank" rel="noreferrer">github.com</a> </b>
+    text1: <h3><b>Планирование маршрута</b>
+    <h4>Приложение по планированию короткого маршрута для автомобилей. 
+        Прокладывает маршрут по двум заданным координатным точкам.
+        Используется OSRM Api для построение маршрута.
+    </h4>
+    <b>Языки и библиотеки.</b> 
+    <h4>JavaScript, React, Leaflet, AntDesign, Redux</h4>
+    <b>Исходные файлы: <a href="https://github.com/Fanzil95/tracking-app" target="_blank" rel="noreferrer">github.com</a> </b>
     </h3>,
 
     text2: <h3><b>Aim Game</b> 
@@ -39,7 +41,9 @@ export const TitleText = {
     ,
      text5: <h3>
      <b>Portfolio Website.</b>
-     <h4>Веб-страница для презентации резюме и портфолио. </h4>
+     <h4>Веб-страница для презентации резюме и портфолио. 
+        Разработан на чистом ReactJS, без использования библиотек.
+     </h4>
      <b>Язык:</b> 
      <h4>HTML, CSS, JavaScript, ReactJS </h4>
      <b>Исходные файлы: <a href="https://github.com/Fanzil95/my_portfolio_website" target="_blank" rel="noreferrer">github.com</a> </b>
