@@ -23,7 +23,7 @@ export const TitleText = {
     <h4>Калькулятор прямого вычисления размеров  конических поверхностей.
     <br />
     Пример использования математических и тригонометрических формул.
-    Преобразование чисел в градусы и минуты.</h4>
+    Преобразование десятичных дробей в градусы и минуты.</h4>
     <b>Язык:</b> 
     <h4>HTML, CSS, JavaScript</h4>
     <b>Исходные файлы: <a href="https://github.com/Fanzil95/cone_calculator" target="_blank" rel="noreferrer">github.com</a> </b>
@@ -34,7 +34,7 @@ export const TitleText = {
     <h4>Пример использования пагинации, сортировки списка (по рейтингу, алфавиту), маршрутизации.</h4>
     <b>Язык:</b> 
     <h4>HTML, CSS, JavaScript, ReactJS </h4>
-    <b>Библиотека:</b>
+    <b>Фреймворк:</b>
     <h4>bootstrap</h4>
     <b>Исходные файлы: <a href="https://github.com/Fanzil95/character-list" target="_blank" rel="noreferrer">github.com</a> </b>
     </h3>
@@ -42,7 +42,7 @@ export const TitleText = {
      text5: <h3>
      <b>Portfolio Website.</b>
      <h4>Веб-страница для презентации резюме и портфолио. 
-        Разработан на чистом ReactJS, без использования библиотек.
+        Одностраничное React-приложение без использования фреймворков.
      </h4>
      <b>Язык:</b> 
      <h4>HTML, CSS, JavaScript, ReactJS </h4>
